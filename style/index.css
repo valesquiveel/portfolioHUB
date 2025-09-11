@@ -1,0 +1,40 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0F0B17;
+            color: #E2E8F0;
+        }
+        .bg-purple-gradient-diagonal {
+            background-image: linear-gradient(135deg, #4F46E5, #9333EA);
+        }
+        .card-bg {
+            background-color: #1A1325;
+            border: 1px solid #374151;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-bg:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .project-card {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .project-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .skill-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        .skill-item:hover .skill-icon {
+            transform: scale(1.1) rotate(10deg);
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+        }
