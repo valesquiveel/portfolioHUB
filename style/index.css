@@ -1,59 +1,66 @@
 body {
-            font-family: 'Inter', sans-serif;
-            background-color: #1E0C1C;
-            color: #E2E8F0;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        .container {
-            max-width: 1200px;
-        }
-        .bg-header {
-            background-color: #2C1A2B;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .text-accent {
-            color: #B87BCC;
-        }
-        .bg-dark-card {
-             background-color: #1E0C1C;
-        }
-        .card-bg {
-            background-color: #2C1A2B;
-            border-radius: 0.5rem;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            padding: 2rem;
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        }
-        .card-bg:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
-        }
-        .btn {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            border-radius: 0.5rem;
-            font-weight: 600;
-            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, color 0.3s ease-in-out;
-            color: #E2E8F0;
-            background-color: #B87BCC;
-        }
-        .btn:hover {
-            transform: translateY(-2px);
-            background-color: #A06AB0;
-        }
-        .skill-icon {
-            transition: transform 0.3s ease-in-out;
-        }
-        .skill-item:hover .skill-icon {
-            transform: scale(1.1) rotate(5deg);
-        }
-        .section-animate {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
-        .section-animate.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    font-family: 'Lato', sans-serif;
+    background-color: #F8F5F2;
+    color: #333333;
+    line-height: 1.6;
+    transition: background-color 0.5s ease;
+}
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #2E4057;
+}
+
+.text-accent {
+    color: #BC8D72;
+}
+
+.bg-section {
+    background-color: #FDFCFB;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    color: #FFFFFF;
+    background-color: #2E4057;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1F2E3E;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-header h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.card-project {
+    transition: all 0.3s ease-in-out;
+}
+
+.card-project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-item:hover {
+    transform: translateY(-5px);
+}
