@@ -1,40 +1,59 @@
 body {
             font-family: 'Inter', sans-serif;
-            background-color: #0F0B17;
+            background-color: #1E0C1C;
             color: #E2E8F0;
+            line-height: 1.6;
+            overflow-x: hidden;
         }
-        .bg-purple-gradient-diagonal {
-            background-image: linear-gradient(135deg, #4F46E5, #9333EA);
+        .container {
+            max-width: 1200px;
+        }
+        .bg-header {
+            background-color: #2C1A2B;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .text-accent {
+            color: #B87BCC;
+        }
+        .bg-dark-card {
+             background-color: #1E0C1C;
         }
         .card-bg {
-            background-color: #1A1325;
-            border: 1px solid #374151;
+            background-color: #2C1A2B;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
         .card-bg:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-        .project-card {
-            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-        }
-        .project-card:hover {
-            transform: scale(1.02);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
-        .skill-icon {
-            transition: transform 0.3s ease-in-out;
-        }
-        .skill-item:hover .skill-icon {
-            transform: scale(1.1) rotate(10deg);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
         }
         .btn {
             display: inline-block;
             padding: 0.75rem 1.5rem;
             border-radius: 0.5rem;
             font-weight: 600;
-            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+            transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, color 0.3s ease-in-out;
+            color: #E2E8F0;
+            background-color: #B87BCC;
         }
         .btn:hover {
             transform: translateY(-2px);
+            background-color: #A06AB0;
+        }
+        .skill-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        .skill-item:hover .skill-icon {
+            transform: scale(1.1) rotate(5deg);
+        }
+        .section-animate {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .section-animate.is-visible {
+            opacity: 1;
+            transform: translateY(0);
         }
