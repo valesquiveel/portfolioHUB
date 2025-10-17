@@ -27,4 +27,4 @@ Este repositório está organizado da seguinte forma:
 ### Conecte-se Comigo
 
 - **LinkedIn:** [Seu Perfil no LinkedIn](https://www.linkedin.com/in/valentina-coromoto-esquivel-gómez-398b912b1)
-- [cite_start]**Email:** valentinawpp25@gmail.com [cite: 95]
+- **Email:** valentinawpp25@gmail.com
