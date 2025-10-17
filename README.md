@@ -14,6 +14,11 @@ Olá! Eu sou a Valentina, estudante de Engenharia de Software no CEUB, apaixonad
 
 ---
 
+### 🚀 Acesse meu Portfólio Web
+> **[https://valesquiveel.github.io/portfolioHUB/](https://valesquiveel.github.io/portfolioHUB/)**
+
+---
+
 ###  Estrutura do Repositório
 
 Este repositório está organizado da seguinte forma:
