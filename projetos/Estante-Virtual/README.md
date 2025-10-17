@@ -4,7 +4,7 @@
 
 "Estante Virtual" é um portfólio web desenvolvido para simular uma estante de livros digital. O projeto foi concebido com foco principal em um design limpo, funcional e na organização intuitiva de informações, apresentando projetos de uma maneira visualmente agradável.
 
-[cite_start]Este trabalho demonstra minhas habilidades em estruturar layouts e organizar conteúdo de forma clara, refletindo meu compromisso com o desenvolvimento web focado na experiência do usuário.
+Este trabalho demonstra minhas habilidades em estruturar layouts e organizar conteúdo de forma clara, refletindo meu compromisso com o desenvolvimento web focado na experiência do usuário.
 
 ---
 
@@ -28,4 +28,5 @@ Você pode visualizar a versão ao vivo do projeto no seguinte link:
 
 * HTML5
 * CSS3
+
 
