@@ -1,34 +1,23 @@
-# Projeto: Calculadora de Churrasco 🍖
+# Projeto: Calculadora de Salário Família
 
-### Sobre o Projeto
+###  Sobre o Projeto
 
-"Calculadora de Churrasco" é uma aplicação web interativa desenvolvida para ajudar no planejamento de um churrasco. O usuário insere a quantidade de adultos e crianças que participarão do evento, e a calculadora estima a quantidade necessária de carne, cerveja e refrigerante.
+Esta é uma aplicação web desenvolvida para calcular o valor do benefício do Salário Família, um direito trabalhista brasileiro. A ferramenta permite que o usuário insira o nome do trabalhador, seu salário bruto mensal e o número de filhos ou dependentes elegíveis.
 
-O projeto foi criado como um exercício prático para aprofundar os conhecimentos em manipulação do **DOM (Document Object Model)** com JavaScript, aplicando lógica para processar entradas do usuário e exibir resultados dinamicamente na página.
-
----
-
-### Principais Funcionalidades
-
-* **Cálculo por Pessoa:** Estima as quantidades com base em regras predefinidas:
-    * **Carne:** 400g por adulto e 200g por criança.
-    * **Cerveja:** 2 litros por adulto.
-    * **Refrigerante:** 500ml por criança.
-* **Interface Interativa:** Permite que o usuário insira dados e receba o resultado instantaneamente sem precisar recarregar a página.
-* **Validação de Entradas:** O campo "Crianças" é desabilitado caso o número de adultos seja zero, garantindo uma lógica de cálculo consistente.
+Com base nas regras vigentes, a calculadora determina se o trabalhador tem direito ao benefício e exibe o valor total a ser recebido. O projeto foi um exercício prático focado na manipulação do **DOM com JavaScript** para criar uma experiência de usuário dinâmica e funcional.
 
 ---
 
-###  Acesso ao Projeto
+###  Principais Funcionalidades
 
-Você pode testar a calculadora em tempo real no seguinte link:
-
-* **Ver Projeto Online:** [https://valesquiveel.github.io/projeto-DOM/](https://valesquiveel.github.io/projeto-DOM/)
+* **Cálculo Automatizado:** Aplica as regras da legislação para verificar a elegibilidade e calcular o valor do benefício.
+* **Interface Intuitiva:** Campos claros para entrada de dados e uma área de resultado que é atualizada dinamicamente.
+* **Feedback ao Usuário:** Exibe uma mensagem clara informando o valor do benefício ou indicando se o trabalhador não possui o direito.
 
 ---
 
-###  Tecnologias Utilizadas
+### 🛠️ Tecnologias Utilizadas
 
-* **HTML5:** Para a estruturação da página.
-* **CSS3:** Para a estilização e o design.
-* **JavaScript:** Para toda a lógica de cálculo e manipulação do DOM.
+* **HTML5:** Para a estrutura da página.
+* **CSS3:** Para a estilização e o layout.
+* **JavaScript:** Para toda a lógica do cálculo e a interação com o usuário via DOM.
