@@ -20,7 +20,7 @@ Com base nas regras vigentes, a calculadora determina se o trabalhador tem direi
 
 Você pode testar a calculadora em tempo real no seguinte link:
 
-* **Ver Projeto Online:** [https://valesquiveel.github.io/portfolioHUB/projetos/calculadora-salario-familia/](https://valesquiveel.github.io/portfolioHUB/projetos/calculadora-salario-familia/)
+* **Ver Projeto Online:** [https://valesquiveel.github.io/projeto-DOM/](https://valesquiveel.github.io/projeto-DOM/)
 
 ---
 
@@ -29,3 +29,4 @@ Você pode testar a calculadora em tempo real no seguinte link:
 * **HTML5:** Para a estrutura da página.
 * **CSS3:** Para a estilização e o layout.
 * **JavaScript:** Para toda a lógica do cálculo e a interação com o usuário via DOM.
+
