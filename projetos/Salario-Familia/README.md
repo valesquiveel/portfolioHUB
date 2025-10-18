@@ -16,8 +16,17 @@ Com base nas regras vigentes, a calculadora determina se o trabalhador tem direi
 
 ---
 
-### 🛠️ Tecnologias Utilizadas
+###  Acesso ao Projeto
+
+Você pode testar a calculadora em tempo real no seguinte link:
+
+* **Ver Projeto Online:** [https://valesquiveel.github.io/projeto-DOM/](https://valesquiveel.github.io/projeto-DOM/)
+
+---
+
+###  Tecnologias Utilizadas
 
 * **HTML5:** Para a estrutura da página.
 * **CSS3:** Para a estilização e o layout.
 * **JavaScript:** Para toda a lógica do cálculo e a interação com o usuário via DOM.
+
