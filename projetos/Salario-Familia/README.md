@@ -16,7 +16,15 @@ Com base nas regras vigentes, a calculadora determina se o trabalhador tem direi
 
 ---
 
-### 🛠️ Tecnologias Utilizadas
+###  Acesso ao Projeto
+
+Você pode testar a calculadora em tempo real no seguinte link:
+
+* **Ver Projeto Online:** [https://valesquiveel.github.io/portfolioHUB/projetos/calculadora-salario-familia/](https://valesquiveel.github.io/portfolioHUB/projetos/calculadora-salario-familia/)
+
+---
+
+###  Tecnologias Utilizadas
 
 * **HTML5:** Para a estrutura da página.
 * **CSS3:** Para a estilização e o layout.
